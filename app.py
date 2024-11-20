@@ -5,12 +5,12 @@ from sklearn.metrics import r2_score
 from utils import data_cleaning
 
 # Load Dataset and Models
-DATASET_PATH = "c:/Users/Afshin/Desktop/10_Projects/Project_1_Tehran_House_Price_Prediction/datasets/housePrice.csv"
+DATASET_PATH = "datasets/housePrice.csv"
 MODELS_PATH = [
-    "c:/Users/Afshin/Desktop/10_Projects/Project_1_Tehran_House_Price_Prediction/models/KernelRidge_pipeline.joblib",
-    "c:/Users/Afshin/Desktop/10_Projects/Project_1_Tehran_House_Price_Prediction/models/GradientBoostingRegressor_pipeline.joblib",
-    "c:/Users/Afshin/Desktop/10_Projects/Project_1_Tehran_House_Price_Prediction/models/XGBoostRegressor_pipeline.joblib",
-    # "c:/Users/Afshin/Desktop/10_Projects/Project_1_Tehran_House_Price_Prediction/models/CatBoostRegressor_pipeline.joblib",
+    "models/KernelRidge_pipeline.joblib",
+    "models/GradientBoostingRegressor_pipeline.joblib",
+    "models/XGBoostRegressor_pipeline.joblib",
+    "models/CatBoostRegressor_pipeline.joblib",
 ]
 
 # Load the cleaned data
