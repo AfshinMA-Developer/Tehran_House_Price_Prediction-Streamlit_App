@@ -1,0 +1,86 @@
+2024-11-16 10:06:27,452 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Current SDK version is 0.18.4
+2024-11-16 10:06:27,452 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Configure stats pid to 10156
+2024-11-16 10:06:27,453 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Afshin\.config\wandb\settings
+2024-11-16 10:06:27,453 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Afshin\Desktop\Project_1\notebook\wandb\settings
+2024-11-16 10:06:27,453 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-16 10:06:27,453 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-16 10:06:27,454 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-16 10:06:27,454 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-16 10:06:27,454 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-16 10:06:27,455 INFO    MainThread:10156 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\Afshin\Desktop\Project_1\notebook\wandb\run-20241116_100627-5j9wo6up\logs\debug.log
+2024-11-16 10:06:27,455 INFO    MainThread:10156 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\Afshin\Desktop\Project_1\notebook\wandb\run-20241116_100627-5j9wo6up\logs\debug-internal.log
+2024-11-16 10:06:27,456 INFO    MainThread:10156 [wandb_init.py:init():621] calling init triggers
+2024-11-16 10:06:27,456 INFO    MainThread:10156 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'input_shape': (192,), 'units': [512, 256, 125, 1], 'activations': ['relu', 'relu', 'relu', 'linear'], 'dropout_rate': 0.025436813953909176, 'optimizer': 'adam', 'loss': 'mean_squared_error', 'metrics': ['mae'], 'epochs': 100, 'batch_size': 32}
+2024-11-16 10:06:27,456 INFO    MainThread:10156 [wandb_init.py:init():671] starting backend
+2024-11-16 10:06:27,456 INFO    MainThread:10156 [wandb_init.py:init():675] sending inform_init request
+2024-11-16 10:06:27,462 INFO    MainThread:10156 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-16 10:06:27,463 INFO    MainThread:10156 [wandb_init.py:init():688] backend started and connected
+2024-11-16 10:06:27,477 INFO    MainThread:10156 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-16 10:06:27,479 INFO    MainThread:10156 [wandb_init.py:init():783] updated telemetry
+2024-11-16 10:06:27,484 INFO    MainThread:10156 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-16 10:06:27,888 ERROR   MainThread:10156 [wandb_init.py:init():842] encountered error: failed to upsert bucket: returned error 403 Forbidden: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>403 Forbidden</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Forbidden</h1>
+<h2>Your client does not have permission to get URL <code>/graphql</code> from this server.</h2>
+<h2></h2>
+</body></html>
+
+2024-11-16 10:06:27,888 ERROR   MainThread:10156 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\Afshin\Desktop\Project_1\.venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "c:\Users\Afshin\Desktop\Project_1\.venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 403 Forbidden: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>403 Forbidden</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Forbidden</h1>
+<h2>Your client does not have permission to get URL <code>/graphql</code> from this server.</h2>
+<h2></h2>
+</body></html>
+
+2024-11-16 10:06:58,483 INFO    MainThread:10156 [wandb_settings.py:_apply_login():1972] Applying login settings: {}
+2024-11-16 10:06:58,483 INFO    MainThread:10156 [wandb_settings.py:_apply_login():1972] Applying login settings: {}
+2024-11-16 10:06:58,505 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Current SDK version is 0.18.4
+2024-11-16 10:06:58,506 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Configure stats pid to 10156
+2024-11-16 10:06:58,506 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Loading settings from C:\Users\Afshin\.config\wandb\settings
+2024-11-16 10:06:58,506 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Loading settings from c:\Users\Afshin\Desktop\Project_1\notebook\wandb\settings
+2024-11-16 10:06:58,506 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-16 10:06:58,507 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-16 10:06:58,533 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-16 10:06:58,533 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-11-16 10:06:58,533 INFO    MainThread:10156 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-16 10:06:58,534 INFO    MainThread:10156 [wandb_init.py:_log_setup():534] Logging user logs to c:\Users\Afshin\Desktop\Project_1\notebook\wandb\run-20241116_100658-nylglgtl\logs\debug.log
+2024-11-16 10:06:58,534 INFO    MainThread:10156 [wandb_init.py:_log_setup():535] Logging internal logs to c:\Users\Afshin\Desktop\Project_1\notebook\wandb\run-20241116_100658-nylglgtl\logs\debug-internal.log
+2024-11-16 10:06:58,535 INFO    MainThread:10156 [wandb_init.py:init():621] calling init triggers
+2024-11-16 10:06:58,536 INFO    MainThread:10156 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'input_shape': (192,), 'units': [512, 256, 125, 1], 'activations': ['relu', 'relu', 'relu', 'linear'], 'dropout_rate': 0.6716960920866287, 'optimizer': 'adam', 'loss': 'mean_squared_error', 'metrics': ['mae'], 'epochs': 100, 'batch_size': 32}
+2024-11-16 10:06:58,536 INFO    MainThread:10156 [wandb_init.py:init():671] starting backend
+2024-11-16 10:06:58,536 INFO    MainThread:10156 [wandb_init.py:init():675] sending inform_init request
+2024-11-16 10:06:58,541 INFO    MainThread:10156 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-16 10:06:58,542 INFO    MainThread:10156 [wandb_init.py:init():688] backend started and connected
+2024-11-16 10:06:58,554 INFO    MainThread:10156 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-16 10:06:58,556 INFO    MainThread:10156 [wandb_init.py:init():783] updated telemetry
+2024-11-16 10:06:58,557 INFO    MainThread:10156 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-16 10:06:58,934 WARNING MsgRouterThr:10156 [router.py:message_loop():77] message_loop has been closed
+2024-11-16 10:08:29,249 ERROR   MainThread:10156 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-16 10:08:29,250 ERROR   MainThread:10156 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Users\Afshin\Desktop\Project_1\.venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 1256, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "c:\Users\Afshin\Desktop\Project_1\.venv\Lib\site-packages\wandb\sdk\wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-16 10:18:07,639 WARNING MsgRouterThr:10156 [router.py:message_loop():77] message_loop has been closed
