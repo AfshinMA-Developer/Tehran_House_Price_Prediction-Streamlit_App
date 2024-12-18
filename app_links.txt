@@ -1,0 +1,7 @@
+Github:
+https://github.com/AfshinMA-Developer/Tehran_House_Price_Prediction-Streamlit_App.git
+Huggingface:
+https://huggingface.co/spaces/AfshinMA/Tehran_House_Price_Prediction-Gradio_App
+https://huggingface.co/spaces/AfshinMA/Tehran_House_Price_Prediction-Streamlit_App
+Streamlit:
+https://tehranhousepriceprediction-appapp-yvrxeayx5tpypfwuqb4swt.streamlit.app
